@@ -20,7 +20,7 @@ const SideScreen = () => {
       </div>
       <Button
           style={{
-              backgroundColor: "#5f00ed",
+              backgroundColor: "rgb(70 105 250)",
               color: "#fff",
               fontWeight: "bold",
               borderRadius: "30px 0px 30px 30px",
@@ -30,7 +30,7 @@ const SideScreen = () => {
               justifyContent: "space-evenly"
             }}
           >
-           <img className='question' src="https://img.icons8.com/ios/50/000000/help.png" alt='' /> 
+          <img className='question' src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/ffffff/external-question-call-to-action-bearicons-glyph-bearicons.png" alt='' />
            <p style={{margin:"0"}}>Need Help?</p>
           </Button>
     </div>

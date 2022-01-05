@@ -8,7 +8,7 @@ function App() {
       <div style={{width:"70%"}}>
         <MainScreen />
       </div>
-      <div style={{backgroundColor:"#fbf9f4", width:"30%",}}>
+      <div style={{backgroundColor:"#fbf9f4", width:"30%", height: "100vh"}}>
        <SideScreen />
       </div>
     </div>

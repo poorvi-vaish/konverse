@@ -33,7 +33,7 @@ const MainScreen = () => {
           </Button>
           <Button
             style={{
-              backgroundColor: "#6800ff",
+              backgroundColor: "rgb(70 105 250)",
               color: "#fff",
               fontWeight: "bold",
             }}
