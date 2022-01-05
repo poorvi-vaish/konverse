@@ -43,7 +43,7 @@ const MainScreen = () => {
         </Stack>
         <p className="demo">
           Get the most out of it -{" "}
-          <a className="demo demo2" href="#">
+          <a className="demo demo2" href="#1">
             Book a live demo
           </a>
         </p>
