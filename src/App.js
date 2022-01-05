@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import MainScreen from './components/MainScreen/MainScreen';
+import SideScreen from './components/SideScreen/SideScreen';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{width:"70%"}}>
+        <MainScreen />
+      </div>
+      <div style={{backgroundColor:"#fbf9f4", width:"30%",}}>
+       <SideScreen />
+      </div>
     </div>
   );
 }
