@@ -12,7 +12,7 @@ const MainScreen = () => {
         <p className="hello">Hi Siva 👋</p>
         <h1>Welcome to Peppertype.ai</h1>
         <p>
-          Congratulations on taking your first step towards vreating content the
+          Congratulations on taking your first step towards creating content, the
           modern way!
         </p>
         <br />
